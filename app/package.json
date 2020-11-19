@@ -1,0 +1,28 @@
+{
+  "name": "tdd-with-node",
+  "version": "1.0.0",
+  "description": "Using TDD approach with Jest to build simple Node.js application (login)",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "nodemon ./src/app.js"
+  },
+  "keywords": [
+    "Node",
+    "Jest",
+    "Mongo",
+    "Express"
+  ],
+  "author": "Nutt Chokwittaya",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.15"
+  }
+}
